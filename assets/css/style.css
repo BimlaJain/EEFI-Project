@@ -40,6 +40,7 @@
     transform-origin: right;
 }
 
+
 .nav-bar-hover:hover::after {
     transform: scaleX(1);
     transform-origin: left;
@@ -148,7 +149,7 @@
 
 /* ----------------------------bull and bear section classes------------------------------------------------ */
 .sec2-bg-img {
-    background-image: url("../images/webp/sec2-bg-img.webp");
+    background-image: url("../images/webp/amplify-bg.webp");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -208,7 +209,7 @@
 
 /* ----------------------roadmap-classes-------------------------------- */
 .roadmap-bg-img {
-    background-image: url("../images/webp/roadmap-bg-img.webp");
+    background-image: url("../images/webp/roadmap-layer.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -389,11 +390,12 @@
         align-items: center;
         justify-content: space-between;
         cursor: pointer;
-        position: fixed;
+        position: absolute;
         z-index: 10;
         right: 2%;
         top: 6%;
         margin-right: 12px;
+        margin-top: 40px;
     }
 
     label[for="menuIcon"] > span {
