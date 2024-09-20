@@ -490,7 +490,7 @@
     }
 
     .footer-card-img {
-        left: -3%;
+        left: 5%;
     }
         .robot-img-size {
             width: 550px;
@@ -536,7 +536,7 @@
         
 
     .bull-size {
-        width: 600px;
+        width: 500px;
     }
 
     .bear-size {
@@ -544,7 +544,7 @@
     }
 
     .ml-8 {
-        margin-left: -8%;
+        margin-left: 4%;
     }
 
     .left-27 {
@@ -564,25 +564,28 @@
     .mt-93 {
         margin-top: 93px;
     }
+    .ml-103{
+        margin-left: -103px;
+    }
 
     .ml-11 {
-        margin-left: -11px;
+        margin-left: 131px;
     }
 
     .bull-size {
-        width: 450px;
-    }
-
-    .bear-size {
         width: 400px;
     }
 
+    .bear-size {
+        width: 350px;
+    }
+
     .top-54 {
-        top: 54%;
+        top: 17% !important;
     }
 
     .left-18 {
-        left: 18%;
+        left: 23%;
     }
 
     .mt-193 {
@@ -592,6 +595,10 @@
     .robot-img-size {
         margin: auto;
         height: 568px;
+        width: 410px;
+    }
+    .w-66{
+        width: 66px;
     }
 
     .roadmap-size {
@@ -603,12 +610,14 @@
         border: 1px solid #1643C3;
         position: relative;
         width: 50%;
-        left: 0;
+        left: 13%;
         margin-bottom: 30px;
     }
-
+.timeline-item:nth-child(even) {
+    left: 56%;
+}
     .footer-card-img {
-        left: 14%;
+        left: -4%;
     }
 }
 
@@ -687,7 +696,7 @@
     }
 
     .footer-card-img {
-        left: 2%;
+        left: 15%;
         width: 100%;
     }
 
@@ -774,7 +783,7 @@
 
     .footer-card-img {
         top: 2%;
-        left: 0%;
+        left: 2%;
         width: 100%;
     }
 
