@@ -338,6 +338,12 @@
     padding: 18px;
     border-radius: 5px;
 }
+.footer-assets-card{
+    width: 160px;
+        height: 130px;
+        padding: 13px;
+        border-radius: 5px;
+}
 
 .pt-76 {
     padding-top: 76px;
@@ -356,6 +362,9 @@
 
 .pb-69 {
     padding-bottom: 69px;
+}
+.pointer-events-none{
+    pointer-events: none !important;
 }
 
 /* -----------------------------------------------responsive--------------------------------------------------- */
@@ -464,13 +473,18 @@
     .ml-2 {
         margin-left: 2%;
     }
-         .bull-size {
-             width: 600px;
-         }
-    
-         .bear-size {
-             width: 471px;
-         }
+
+    .bull-size {
+        width: 600px;
+    }
+
+    .bear-size {
+        width: 471px;
+    }
+
+    .footer-card-img {
+        left: -3%;
+    }
 }
 
 @media (max-width:1024px) {
@@ -565,17 +579,23 @@
         margin: auto;
         height: 568px;
     }
-    .roadmap-size{
+
+    .roadmap-size {
         max-width: 300px;
     }
-        .timeline-item {
-            border-radius: 8px;
-            border: 1px solid #1643C3;
-            position: relative;
-            width: 50%;
-            left: 0;
-            margin-bottom: 30px;
-        }
+
+    .timeline-item {
+        border-radius: 8px;
+        border: 1px solid #1643C3;
+        position: relative;
+        width: 50%;
+        left: 0;
+        margin-bottom: 30px;
+    }
+
+    .footer-card-img {
+        left: 14%;
+    }
 }
 
 @media (max-width:768px) {
@@ -663,10 +683,11 @@
         background-color: white;
         border-radius: 2px;
     }
-         .roadmap-size {
-             
-             margin-bottom: 50px;
-         }
+
+    .roadmap-size {
+
+        margin-bottom: 50px;
+    }
 }
 
 @media (max-width:576px) {
@@ -739,10 +760,11 @@
     .mt-50 {
         margin-top: 50px;
     }
-        .roadmap-size {
-            max-width: 283px;
-            width: 100%;
-        }
+
+    .roadmap-size {
+        max-width: 283px;
+        width: 100%;
+    }
 }
 
 @media (max-width:376px) {
