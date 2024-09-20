@@ -1,9 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
-*{
+
+* {
     font-family: "Raleway", sans-serif;
 }
-.plus-jakarta-sans{
+
+.plus-jakarta-sans {
     font-family: "Plus Jakarta Sans", sans-serif;
 }
 
@@ -146,7 +148,7 @@
 
 /* ----------------------------bull and bear section classes------------------------------------------------ */
 .sec2-bg-img {
-    background-image: url("../images/sec2-bg-img.png");
+    background-image: url("../images/webp/sec2-bg-img.webp");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -267,7 +269,7 @@
     position: absolute;
     width: 53px;
     height: 23px;
-    background-image: url(../images/timeline-dots.png);
+    background-image: url("../images/webp/timeline-dots.webp");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -281,7 +283,7 @@
     position: absolute;
     width: 53px;
     height: 25px;
-    background-image: url(../images/timeline-dots1.png);
+    background-image: url("../images/webp/timeline-dots1.webp");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -595,7 +597,7 @@
         position: absolute;
         width: 53px;
         height: 23px;
-        background-image: url(../images/timeline-dots1.png);
+        background-image: url("../images/webp/timeline-dots1.webp");
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -633,12 +635,13 @@
     .footer-card-img {
         left: 14%;
     }
-          label[for="menuIcon"] > span {
-              width: 100%;
-              height: 3px;
-              background-color: white;
-              border-radius: 2px;
-          }
+
+    label[for="menuIcon"] > span {
+        width: 100%;
+        height: 3px;
+        background-color: white;
+        border-radius: 2px;
+    }
 }
 
 @media (max-width:576px) {
