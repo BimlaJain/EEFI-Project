@@ -464,6 +464,13 @@
     .ml-2 {
         margin-left: 2%;
     }
+         .bull-size {
+             width: 600px;
+         }
+    
+         .bear-size {
+             width: 471px;
+         }
 }
 
 @media (max-width:1024px) {
@@ -535,11 +542,11 @@
     }
 
     .bull-size {
-        width: 550px;
+        width: 450px;
     }
 
     .bear-size {
-        width: 417px;
+        width: 400px;
     }
 
     .top-54 {
@@ -558,6 +565,17 @@
         margin: auto;
         height: 568px;
     }
+    .roadmap-size{
+        max-width: 300px;
+    }
+        .timeline-item {
+            border-radius: 8px;
+            border: 1px solid #1643C3;
+            position: relative;
+            width: 50%;
+            left: 0;
+            margin-bottom: 30px;
+        }
 }
 
 @media (max-width:768px) {
@@ -574,11 +592,11 @@
     }
 
     .bull-size {
-        width: 450px;
+        width: 350px;
     }
 
     .bear-size {
-        width: 362px;
+        width: 320px;
     }
 
     .bottom-8 {
@@ -605,7 +623,7 @@
         background-size: cover;
         top: 0;
         z-index: 3;
-        left: -24%;
+        left: -22%;
     }
 
     .timeline-item:nth-child(even) {
@@ -614,7 +632,7 @@
 
 
     .timeline-item:nth-child(even)::after {
-        left: -24%;
+        left: -22%;
     }
 
     .timeline-item {
@@ -635,7 +653,8 @@
     }
 
     .footer-card-img {
-        left: 14%;
+        left: 4%;
+        width: 100%;
     }
 
     label[for="menuIcon"] > span {
@@ -644,6 +663,10 @@
         background-color: white;
         border-radius: 2px;
     }
+         .roadmap-size {
+             
+             margin-bottom: 50px;
+         }
 }
 
 @media (max-width:576px) {
@@ -652,23 +675,23 @@
     }
 
     .bull-size {
-        width: 371px;
+        width: 200px;
     }
 
     .bear-size {
-        width: 302px;
+        width: 200px;
     }
 
     .mt-146 {
         margin-top: 146px;
     }
 
-    .ml-50 {
-        margin-left: -50px;
+    .ml-42 {
+        margin-left: 42px;
     }
 
-    .ml-108 {
-        margin-left: -108px;
+    .ml-75 {
+        margin-left: -75px;
     }
 
     .w-66 {
@@ -698,7 +721,8 @@
 
     .footer-card-img {
         top: 2%;
-        left: 2%;
+        left: 0%;
+        width: 100%;
     }
 
     .footer-card {
@@ -715,6 +739,10 @@
     .mt-50 {
         margin-top: 50px;
     }
+        .roadmap-size {
+            max-width: 283px;
+            width: 100%;
+        }
 }
 
 @media (max-width:376px) {
@@ -756,6 +784,7 @@
 
     .roadmap-size {
         max-width: 283px;
+        width: 100%;
     }
 
     .timeline-item::after {
@@ -775,6 +804,6 @@
 
     .robot-img-size {
         margin: auto;
-        height: 400px;
+        height: 350px;
     }
 }
