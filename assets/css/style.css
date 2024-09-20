@@ -1,12 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
-
-* {
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+*{
     font-family: "Raleway", sans-serif;
+}
+.plus-jakarta-sans{
+    font-family: "Plus Jakarta Sans", sans-serif;
 }
 
 /* ----------------------------hero-section classes------------------------------------ */
-.max-w-1440 {
-    max-width: 1440px;
+.max-w-1920 {
+    max-width: 1920px;
 }
 
 .hero-bg-img {
@@ -269,7 +272,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     top: -6%;
-    z-index: 3;
+    z-index: 1;
     left: 110%;
 }
 
@@ -282,7 +285,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    z-index: 3;
+    z-index: 1;
     top: 0;
     left: -25%;
 }
@@ -388,6 +391,7 @@
         z-index: 10;
         right: 2%;
         top: 6%;
+        margin-right: 12px;
     }
 
     label[for="menuIcon"] > span {
@@ -407,8 +411,8 @@
         position: fixed;
         top: 0%;
         right: -100%;
-        transition: all 200ms linear;
-        z-index: 1;
+        transition: all 300ms linear ease-in-out;
+        z-index: 5;
     }
 
     input[type="checkbox"]:checked ~ .smallscreen {
@@ -629,6 +633,12 @@
     .footer-card-img {
         left: 14%;
     }
+          label[for="menuIcon"] > span {
+              width: 100%;
+              height: 3px;
+              background-color: white;
+              border-radius: 2px;
+          }
 }
 
 @media (max-width:576px) {
