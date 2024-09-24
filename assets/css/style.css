@@ -3,6 +3,7 @@
 
 * {
     font-family: "Raleway", sans-serif;
+ 
 }
 
 @font-face {
@@ -445,7 +446,7 @@
     input:checked ~ label[for="menuIcon"] span:last-child {
         transform: rotate(-40deg);
         transform-origin: left;
-        background-color: white;
+        background-color: var(--white);
     }
 
     label[for="menuIcon"] {
@@ -483,7 +484,7 @@
         top: 0%;
         right: -100%;
         z-index: 5 !important;
-       transition: all 300ms linear ease-in-out;
+       transition: all 300ms linear;
     }
 
     input[type="checkbox"]:checked ~ .smallscreen {
@@ -658,6 +659,9 @@
     .w-66 {
         width: 66px;
     }
+    .roadmap-size{
+        max-width: 300px;
+    }
 
 
     .timeline-item {
@@ -665,16 +669,16 @@
         border: 1px solid #1643C3;
         position: relative;
         width: 50%;
-        left: 13%;
+        left: 5%;
         margin-bottom: 30px;
     }
 
     .timeline-item:nth-child(even) {
-        left: 56%;
+        left: 58%;
     }
 
     .footer-card-img {
-        left: -4%;
+        left: -7%;
     }
 }
 
