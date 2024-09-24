@@ -569,7 +569,7 @@
 
     .timeline-item::after {
 
-        left: 102%;
+        left: 109%;
     }
 
     .timeline-item:nth-child(even)::after {
@@ -611,6 +611,14 @@
     .top-50 {
         top: 50%;
     }
+         .timeline-item {
+             border-radius: 8px;
+             border: 1px solid #1643C3;
+             position: relative;
+             width: 50%;
+             left: 20px;
+             margin-bottom: 30px;
+         }
 }
 
 @media (max-width:992px) {
