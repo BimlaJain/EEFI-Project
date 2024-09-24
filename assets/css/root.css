@@ -90,6 +90,7 @@
 
 @media (max-width:1024px) {
     :root {
+        --fs-lg:36px;
         --fs-xl: 40px;
         --fs-2xl: 60px;
     }
@@ -126,7 +127,20 @@
 @media (max-width:576px) {
     :root {
         --fs-xsm: 12px;
-        --fs-sm: 14px;
+        --fs-sm: 15px;
+        --fs-xmd: 16px;
+        --fs-xxmd: 14px;
+        --fs-md: 18px;
+        --fs-xlg: 20px;
+        --fs-lg: 28px;
+        --fs-xl: 22px;
+        --fs-2xl: 38px;
+    }
+}
+@media (max-width:376px) {
+    :root {
+        --fs-xsm: 12px;
+        --fs-sm: 12px;
         --fs-xmd: 16px;
         --fs-xxmd: 14px;
         --fs-md: 18px;
