@@ -41,13 +41,13 @@
                     <div class=" d-flex justify-content-between">
                         <a href=""><img src="assets/images/webp/logo.webp" alt="logo" class="logo-size"></a>
                         <input type="checkbox" id="menuIcon" hidden>
-                        <label for="menuIcon">
+                        <label for="menuIcon" id="navBtn"   onclick="navMenu()">
                             <span></span>
                             <span></span>
                             <span></span>
                         </label>
 
-                        <ul class="d-flex  gap-sm-4 gap-3 list-unstyled pt-4 smallscreen">
+<ul class="d-flex  gap-sm-4 gap-3 list-unstyled pt-4 smallscreen overflow_hidden" id="mobileMenu">
                             <li> <a href="#hero-section"
                                     class="text-decoration text-white list-unstyled font-raleway fs-sm nav-bar-hover">
                                     About
@@ -87,9 +87,9 @@
                                     </svg>
                                 </a>
                                 <div class="position-absolute bg-white dropdown-content px-3 py-3">
-                                    <a href="" class="text-blue fw-bold fs-md text-decoration-none">Feedback</a>
-                                    <a href="" class="text-blue fw-bold fs-md text-decoration-none">contact us </a>
-                                    <a href="" class="text-blue fw-bold fs-md text-decoration-none">Help</a>
+                                    <a href="" class="text-blue fw-normal fs-md text-decoration-none">Feedback</a>
+                                    <a href="" class="text-blue fw-normal fs-md text-decoration-none">contact us </a>
+                                    <a href="" class="text-blue fw-normal fs-md text-decoration-none">Help</a>
                                 </div>
                             </li>
 
@@ -132,7 +132,7 @@
                         class="bear-size ml-128 ml-75 ml-40  mt-61 mt-93 mt-50 mt-146 mt-80 ml-95 ml-103">
                 </div>
                 <p
-                    class="fw-normal fs-xsm leading-160 position-absolute text-white max-w-554 mx-auto text-center top-54 left-38 left-30  left-16 top-13 top-54 left-18 left-5 top-26 left-27 top-50 z-1 ">
+                    class="fw-normal fs-xsm leading-160 position-absolute text-white max-w-554 mx-auto text-center top-54 left-38 left-30  left-16 top-13 top-54 left-18 left-5 top-26 left-27 top-50 z-1 text-shadow">
                     We take a different balanced approach to finding and creating yield opportunities in the
                     everchanging crypto market. Our
                     yield strategies help users stay protected and hedged during bear markets and amplify yield during
