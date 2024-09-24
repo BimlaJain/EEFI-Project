@@ -2,12 +2,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
 
 * {
-    font-family: "Raleway", sans-serif;
-   
+    font-family: "Raleway", sans-serif;   
 }
+@font-face{
+    font-family: 'Neue Machina';
+    src: url(/assets/fonts/NeueMachina-Ultrabold.ttf);
+}
+
 
 .plus-jakarta-sans {
     font-family: "Plus Jakarta Sans", sans-serif;
+}
+.neue_font{
+    font-family: 'neue machina' , sans-serif;
 }
 
 /* ----------------------------hero-section classes------------------------------------ */
@@ -90,12 +97,12 @@
     text-decoration: none !important;
 }
 
-.ps-126 {
-    padding-left: 126px;
+.ps-46 {
+    padding-left: 46px;
 }
 
-.pe-175 {
-    padding-right: 150px;
+.pe-75 {
+    padding-right: 75px;
 }
 
 .px-31 {
@@ -207,15 +214,15 @@
     top: 54%;
 }
 
-.left-30 {
-    left: 30%;
-}
 
-.bottom-13 {
-    bottom: -13%;
+.bottom-18 {
+    bottom: -18%;
 }
 .z-index-1{
     z-index: 1;
+}
+.left-38{
+    left: 38%;
 }
 
 /* ----------------------roadmap-classes-------------------------------- */
@@ -380,8 +387,23 @@
 .bottom-9{
     bottom: 9%;
 }
+.top-15{
+    top: 15%;
+}
+.left-53{
+    left: 53%;
+}
 
 /* -----------------------------------------------responsive--------------------------------------------------- */
+@media (max-width:1401px) {
+    .bottom-13{
+        bottom: -13%;
+    }
+        .left-30 {
+            left: 30%;
+        }
+    
+}
 @media (max-width:1200px) {
     label[for="menuIcon"] > span {
         transition: all 200ms linear;
