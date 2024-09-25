@@ -34,20 +34,20 @@
     <body class="max-w-1920 m-auto">
         <section id="hero-section" class=" hero-bg-img   position-relative">
             <img src="assets/images/webp/hero-side-dot.webp" alt="side dot in hero section"
-                class="position-absolute w-48 right-2 top-7 d-xl-block d-none">
+                class="position-absolute w-48 right-2 top-7 d-xl-block d-none pointer-events-none">
             <div class="container">
-                <nav
-                    class=" ps-46 pe-75 px-none ps-0 pl-0 pt-sm-4 pt-2 z-3 position-relative">
+                <nav class=" ps-46 pe-75 px-none ps-0 pl-0 pt-sm-4 pt-2 z-3 position-relative">
                     <div class=" d-flex justify-content-between">
                         <a href=""><img src="assets/images/webp/logo.webp" alt="logo" class="logo-size"></a>
                         <input type="checkbox" id="menuIcon" hidden>
-                        <label for="menuIcon" id="navBtn"   onclick="navMenu()">
+                        <label for="menuIcon" id="navBtn" onclick="navMenu()">
                             <span></span>
                             <span></span>
                             <span></span>
                         </label>
 
-<ul class="d-flex  gap-sm-4 gap-3 list-unstyled pt-4 smallscreen overflow_hidden" id="mobileMenu">
+                        <ul class="d-flex  gap-sm-4 gap-3 list-unstyled pt-4 smallscreen overflow_hidden"
+                            id="mobileMenu">
                             <li> <a href="#hero-section"
                                     class="text-decoration text-white list-unstyled font-raleway fs-sm nav-bar-hover">
                                     About
@@ -104,13 +104,14 @@
                 </nav>
                 <div class="row justify-content-between">
                     <div class="col-12 col-lg-5 max-w-524 mx-0 z-2 pt-164 pt-30">
-                        <h1 class="fw-medium fs-2xl leading-112 text-white text-uppercase neue_font">Building
+                        <h1 class="fw-medium fs-2xl leading-112 text-white text-uppercase neue_font_regular">Building
                             elastic
                             Protocol</h1>
                         <p class="fw-normal fs-sm leading-150 text-white opacity-75 pb-2">An ecosystem of unique yield
                             strategies that help you earn yield, amplify, and stretch it across all market conditions
                         </p>
-                       <a href="" class="text-white text-decoration-underline fw-bold fs-xxmd">Audited by Omniscia</a>
+                        <a href="" class="text-white border-bottom text-decoration-none fw-bold fs-xxmd">Audited by
+                            Omniscia</a>
                     </div>
                     <div class="col-12 col-lg-6">
                         <img loading="lazy" src="assets/images/webp/hreo-image.webp" alt="robot-col-image"
@@ -123,7 +124,9 @@
         <!-- ------------------bull and bear section----------------------- -->
         <section id="bull-bear" class="sec2-bg-img  position-relative">
             <div class="container">
-                <h2 class="leading-120 fw-semibold fs-xl text-white text-center py-md-4 py-3 plus-jakarta-sans bg-black">Amplify and
+                <h2
+                    class="leading-120 fw-semibold fs-xl text-white text-center py-md-4 py-3 plus-jakarta-sans bg-black">
+                    Amplify and
                     STRETCH GAINS</h2>
                 <div class="d-flex">
                     <img loading="lazy" src="assets/images/webp/bull.webp" alt="bull-img"
@@ -157,167 +160,293 @@
                     <div class="timeline-item roadmap-size ">
                         <div class="timeline-content">
                             <h3 class="text-white fw-medium fs-md leading-120 plus-jakarta-sans">2022</h3>
-                            <ul>
-                                <li class="text-white fs-sm fw-normal leading-150">Ideation of Elastic Protocol
-                                    
-                                        <li class="text-white fs-sm fw-normal leading-150 ms-4">Elastic Protocol GitBook</li>
-                                        <li class="text-white fs-sm fw-normal leading-150 ms-4">Full Code development of
-                                            Elastic
-                                            Vault Strategy</li>
-                                        <li class="text-white fs-sm fw-normal leading-150 ms-4">Audit</li>
-                                    
-                                </li>
-                                <li class="text-white fs-sm fw-normal leading-150">Complete Alpha Testing</li>
-                            </ul>
+                            <div class="d-flex align-items-baseline ms-3">
+
+                                <p
+                                    class="text-white fs-sm fw-normal leading-150 ms-3 list-unstyled mb-0 position-relative dots">
+                                    Ideation of
+                                    Elastic Protocol</p>
+                            </div>
+                            <div class="d-flex align-items-baseline ms-5">
+
+                                <p
+                                    class="text-white fs-sm fw-normal leading-150 ms-3 list-unstyled mb-0 position-relative dots">
+                                    Elastic
+                                    Protocol GitBook</p>
+                            </div>
+                            <div class="d-flex align-items-baseline ms-5">
+
+                                <p
+                                    class="text-white fs-sm fw-normal leading-150 ms-3 list-unstyled mb-0 position-relative dots">
+                                    Full Code
+                                    development of Elastic Vault Strategy</p>
+                            </div>
+                            <div class="d-flex align-items-baseline ms-5">
+
+                                <p
+                                    class="text-white fs-sm fw-normal leading-150 ms-3 list-unstyled mb-0 position-relative dots">
+                                    Audit</p>
+                            </div>
+                            <div class="d-flex align-items-baseline ms-3">
+
+                                <p
+                                    class="text-white fs-sm fw-normal leading-150 ms-3 list-unstyled  position-relative dots">
+                                    Complete Alpha
+                                    Testing</p>
+                            </div>
+
                         </div>
                     </div>
                     <div class="timeline-item roadmap-size ">
                         <div class="timeline-content">
                             <h3 class="text-white fw-medium fs-md leading-120 plus-jakarta-sans">2023 Beginning</h3>
-                            <ul>
-                                <li class="text-white fs-sm fw-normal leading-150 ">Olympus Partnership Beginning
-                                    
-                                        <li class="text-white fs-sm fw-normal leading-150 ms-4">$25k Grant 2023 </li>
-                                        <li class="text-white fs-sm fw-normal leading-150 ms-4">$150k Total seeded Liquidity
-                                            sought from Olympus DAO</li>
-                                        <li class="text-white fs-sm fw-normal leading-150 ms-4">Third Party Partner Intros
-                                        </li>
-                                    
-                                </li>
-                                <li class="text-white fs-sm fw-normal leading-150">Elastic Vault Strategy Updates +
-                                    Olympus $OHM Integrations</li>
-                            </ul>
+                            <div class="d-flex align-items-baseline ms-3">
+
+                                <p
+                                    class="text-white fs-sm fw-normal leading-150 ms-3 list-unstyled mb-0 position-relative dots ">
+                                    Olympus
+                                    Partnership Beginning</p>
+                            </div>
+                            <div class="d-flex align-items-baseline ms-5">
+
+                                <p
+                                    class="text-white fs-sm fw-normal leading-150 ms-3 list-unstyled mb-0 position-relative dots">
+                                    $25k Grant
+                                    2023 </p>
+                            </div>
+                            <div class="d-flex align-items-baseline ms-5">
+
+                                <p
+                                    class="text-white fs-sm fw-normal leading-150 ms-3 list-unstyled mb-0 position-relative dots">
+                                    $150k Total
+                                    seeded Liquidity sought from Olympus DAO</p>
+                            </div>
+                            <div class="d-flex align-items-baseline ms-5">
+
+                                <p
+                                    class="text-white fs-sm fw-normal leading-150 ms-3 list-unstyled mb-0 position-relative dots">
+                                    Third Party
+                                    Partner Intros</p>
+                            </div>
+                            <div class="d-flex align-items-baseline ms-3">
+
+                                <p
+                                    class="text-white fs-sm fw-normal leading-150 ms-3 list-unstyled position-relative dots ">
+                                    Elastic Vault
+                                    Strategy Updates + Olympus $OHM Integrations</p>
+                            </div>
+
                         </div>
                     </div>
                     <div class="timeline-item roadmap-size ">
                         <div class="timeline-content">
                             <h3 class="text-white fw-medium fs-md leading-120 plus-jakarta-sans">Q3 2023</h3>
-                            <ul>
-                                <li class="text-white fs-sm fw-normal leading-150">Partner launched KOLs Marketing
-                                    Campaign | Rally larger community base </li>
-                                <li class="text-white fs-sm fw-normal leading-150">Balancer $EEFI Pools launch</li>
-                                <li class="text-white fs-sm fw-normal leading-150">Launch of Elastic Vault Strategy
-                                    (flagship) + $EEFI</li>
-                                <li class="text-white fs-sm fw-normal leading-150">Elastic IBO Fundraising Event [Rounds
-                                    Begin]</li>
+                            <div class="d-flex align-items-baseline ms-3">
+                                <p
+                                    class="text-white fs-sm fw-normal leading-150 ms-3 list-unstyled mb-1 position-relative dots">
+                                    Partner
+                                    launched KOLs Marketing Campaign | Rally larger community base</p>
+                            </div>
+                            <div class="d-flex align-items-baseline ms-3">
 
-                            </ul>
+                                <p
+                                    class="text-white fs-sm fw-normal leading-150 ms-3 list-unstyled mb-1 position-relative dots">
+                                    Balancer $EEFI
+                                    Pools launch</p>
+                            </div>
+                            <div class="d-flex align-items-baseline ms-3">
+
+                                <p
+                                    class="text-white fs-sm fw-normal leading-150 ms-3 list-unstyled mb-1 position-relative dots">
+                                    Launch of
+                                    Elastic Vault Strategy (flagship) + $EEFI</p>
+                            </div>
+                            <div class="d-flex align-items-baseline ms-3">
+
+                                <p
+                                    class="text-white fs-sm fw-normal leading-150 ms-3 list-unstyled mb-1 position-relative dots">
+                                    Elastic IBO
+                                    Fundraising Event [Rounds Begin]</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="timeline-item roadmap-size">
+                        <div class="timeline-content">
+                            <h3 class="text-white fw-medium fs-md leading-120 plus-jakarta-sans">Q4 2023</h3>
+                            <div class="d-flex align-items-baseline ms-3">
+
+                                <p
+                                    class="text-white fs-sm fw-normal leading-150 ms-3 list-unstyled mb-0  position-relative dots">
+                                    Front End upgrade</p>
+                            </div>
+                            <div class="d-flex align-items-baseline ms-3">
+
+                                <p
+                                    class="text-white fs-sm fw-normal leading-150 ms-3 list-unstyled mb-0 position-relative dots">
+                                    INO [Initial NFT Offering]: Social Elastic NFT campaign</p>
+                            </div>
+                            <div class="d-flex align-items-baseline ms-3">
+
+                                <p
+                                    class="text-white fs-sm fw-normal leading-150 ms-3 list-unstyled mb-0 position-relative dots">
+                                    Initial Olympus econOHMy Vaults: </p>
+                            </div>
+                            <div class="d-flex align-items-baseline ms-5">
+
+                                <p
+                                    class="text-white fs-sm fw-normal leading-150 ms-3 list-unstyled mb-0 position-relative dots">
+                                    Elastic | FRAXBP LP Vault</p>
+                            </div>
+                            <div class="d-flex align-items-baseline ms-5">
+
+                                <p
+                                    class="text-white fs-sm fw-normal leading-150 ms-3 list-unstyled  position-relative dots">
+                                    Olympus | Uniswap LP Vault</p>
+                            </div>
+                            <div class="d-flex align-items-baseline ms-3">
+
+                                <p
+                                    class="text-white fs-sm fw-normal leading-150 ms-3 list-unstyled position-relative dots ">
+                                    Elastic Community Engagement: Onboard contributors to drive protocol development,
+                                    partnerships, community development
+                                    and begin governance activities</p>
+                            </div>
+
                         </div>
                     </div>
                     <div class="timeline-item roadmap-size ">
                         <div class="timeline-content">
-                            <h3 class="text-white fw-medium fs-md leading-120 plus-jakarta-sans">Q4 2023</h3>
-                            <ul>
-                                <li class="text-white fs-sm fw-normal leading-150">Front End upgrade</li>
-                                <li class="text-white fs-sm fw-normal leading-150">INO [Initial NFT Offering]: Social
-                                    Elastic NFT campaign</li>
-                                <li class="text-white fs-sm fw-normal leading-150">Initial Olympus econOHMy Vaults: 
+                            <h3 class="text-white fw-medium fs-md leading-120 plus-jakarta-sans">Q1 2024</h3>
+                            <div class="d-flex align-items-baseline ms-3">
 
-                                    
-                                        <li class="text-white fs-sm fw-normal leading-150 ms-4">Elastic | FRAXBP LP Vault
-                                        </li>
-                                        <li class="text-white fs-sm fw-normal leading-150 ms-4">Olympus | Uniswap LP Vault
-                                        </li>
-                                    
-                                </li>
-                                <li class="text-white fs-sm fw-normal leading-150">Elastic Community Engagement: Onboard
-                                    contributors to drive protocol development, partnerships, community development
-                                    and begin governance activities</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="timeline-item roadmap-size ">
-                        <div class="timeline-content">
-                            <h3 class="text-white fw-medium fs-md leading-120 plus-jakarta-sans">Q4 2023</h3>
-                            <ul>
-                                <li class="text-white fs-sm fw-normal leading-150">Elastic Research and Development:
-                                    Explore additional
-                                    vault strategies and develop risk and due-diligence procedures
-                                    associated with strategy development and implementation</li>
-                                <li class="text-white fs-sm fw-normal leading-150">INO [Initial NFT Offering]: Social
-                                    Elastic NFT campaign
-                                </li>
-                                <li class="text-white fs-sm fw-normal leading-150">Elastic Vault (Sub-Vaults): Begin
-                                    exploring additional
-                                    tokens to add to core Elastic Vault strategy</li>
+                                <p
+                                    class="text-white fs-sm fw-normal leading-150 ms-3 list-unstyled mb-1  position-relative dots">
+                                    Elastic Research and Development: Explore additional vault strategies and develop
+                                    risk and due-diligence procedures
+                                    associated with strategy development and implementation</p>
+                            </div>
+                            <div class="d-flex align-items-baseline ms-3">
 
-                                <li class="text-white fs-sm fw-normal leading-150">Arbitrum Layer 2 yield strategy
-                                    considerations</li>
-                                <li class="text-white fs-sm fw-normal leading-150">Olympus | Uniswap LP Vault</li>
+                                <p
+                                    class="text-white fs-sm fw-normal leading-150 ms-3 list-unstyled mb-1 position-relative dots">
+                                    Elastic Vault (Sub-Vaults): Begin exploring additional tokens to add to core Elastic
+                                    Vault strategy</p>
+                            </div>
+                            <div class="d-flex align-items-baseline ms-3">
 
-                                <li class="text-white fs-sm fw-normal leading-150">Begin developing comprehensive
-                                    tokenomics for $EFT
-                                    (Elastic Protocol governance token)</li>
-                                <li class="text-white fs-sm fw-normal leading-150">First $EEFI Bonds Program [Bond
-                                    Protocol] (beta):
-                                    treasury bolster fundraise</li>
-                            </ul>
+                                <p
+                                    class="text-white fs-sm fw-normal leading-150 ms-3 list-unstyled mb-1 position-relative dots">
+                                    Arbitrum Layer 2 yield strategy considerations</p>
+                            </div>
+                            <div class="d-flex align-items-baseline ms-3">
+
+                                <p
+                                    class="text-white fs-sm fw-normal leading-150 ms-3 list-unstyled mb-1 position-relative dots">
+                                    Begin developing comprehensive tokenomics for $EFT (Elastic Protocol governance
+                                    token)</p>
+                            </div>
+                            <div class="d-flex align-items-baseline ms-3">
+
+                                <p
+                                    class="text-white fs-sm fw-normal leading-150 ms-3 list-unstyled mb-1 position-relative dots">
+                                    First $EEFI Bonds Program [Bond Protocol] (beta): treasury bolster fundraise</p>
+                            </div>
                         </div>
                     </div>
                     <div class="timeline-item roadmap-size ">
                         <div class="timeline-content">
                             <h3 class="text-white fw-medium fs-md leading-120 plus-jakarta-sans">Q2 2024</h3>
-                            <ul>
-                                <li class="text-white fs-sm fw-normal leading-150">Gearbox | OHM [Perp-Leverage] Vault
-                                </li>
-                                <li class="text-white fs-sm fw-normal leading-150">Bond Protocol (Bonding) Vault</li>
-                                <li class="text-white fs-sm fw-normal leading-150">Future Strategy (vote): Real Yield
-                                    GMX | GPL Vault</li>
-                                <li class="text-white fs-sm fw-normal leading-150">Future Strategy (vote): Elastic
-                                    Options Vault (sub-vault)</li>
-                            </ul>
+                            <div class="d-flex align-items-baseline ms-3">
+                                <p
+                                    class="text-white fs-sm fw-normal leading-150 ms-3 list-unstyled mb-1 position-relative dots">
+                                    Gearbox | OHM [Perp-Leverage] Vault</p>
+                            </div>
+                            <div class="d-flex align-items-baseline ms-3">
+
+                                <p
+                                    class="text-white fs-sm fw-normal leading-150 ms-3 list-unstyled mb-1 position-relative dots">
+                                    Bond Protocol (Bonding) Vault</p>
+                            </div>
+                            <div class="d-flex align-items-baseline ms-3">
+
+                                <p
+                                    class="text-white fs-sm fw-normal leading-150 ms-3 list-unstyled mb-1 position-relative dots">
+                                    Future Strategy (vote): Real Yield GMX | GPL Vault</p>
+                            </div>
+                            <div class="d-flex align-items-baseline ms-3">
+
+                                <p
+                                    class="text-white fs-sm fw-normal leading-150 ms-3 list-unstyled mb-1 position-relative dots">
+                                    Future Strategy (vote): Elastic Options Vault (sub-vault)</p>
+                            </div>
                         </div>
                     </div>
                     <div class="timeline-item roadmap-size ">
                         <div class="timeline-content">
                             <h3 class="text-white fw-medium fs-md leading-120 plus-jakarta-sans">Q3 2024</h3>
-                            <ul>
-                                <li class="text-white fs-sm fw-normal leading-150">Establish DAO to govern Elastic
-                                    Finance and fully decentralize protocol</li>
-                                <li class="text-white fs-sm fw-normal leading-150">Elastic Yield Alliance (Strategic
-                                    Yield Strategy Partners): begin governance vote for Multi-chain yield strategies
-                                </li>
-                            </ul>
+                            <div class="d-flex align-items-baseline ms-3">
+                                <p
+                                    class="text-white fs-sm fw-normal leading-150 ms-3 list-unstyled mb-1 position-relative dots">
+                                    Establish DAO to govern Elastic Finance and fully decentralize protocol</p>
+                            </div>
+                            <div class="d-flex align-items-baseline ms-3">
+
+                                <p
+                                    class="text-white fs-sm fw-normal leading-150 ms-3 list-unstyled mb-1 position-relative dots">
+                                    Elastic Yield Alliance (Strategic Yield Strategy Partners): begin governance vote
+                                    for Multi-chain yield strategies</p>
+                            </div>
                         </div>
                     </div>
                     <div class="timeline-item roadmap-size ">
                         <div class="timeline-content">
                             <h3 class="text-white fw-medium fs-md leading-120 plus-jakarta-sans">Q4 2024</h3>
-                            <ul>
-                                <li class="text-white fs-sm fw-normal leading-150">Community voted Yield Strategy 1
-                                    (governance)</li>
-                                <li class="text-white fs-sm fw-normal leading-150">$EEFI Borrowing and Lending
-                                    Partnership</li>
+                            <div class="d-flex align-items-baseline ms-3">
+                                <p
+                                    class="text-white fs-sm fw-normal leading-150 ms-3 list-unstyled mb-1 position-relative dots">
+                                    Community voted Yield Strategy 1 (governance)</p>
+                            </div>
+                            <div class="d-flex align-items-baseline ms-3">
 
-                            </ul>
+                                <p
+                                    class="text-white fs-sm fw-normal leading-150 ms-3 list-unstyled mb-1 position-relative dots">
+                                    $EEFI Borrowing and Lending Partnership</p>
+                            </div>
                         </div>
                     </div>
                     <div class="timeline-item roadmap-size ">
                         <div class="timeline-content">
                             <h3 class="text-white fw-medium fs-md leading-120 plus-jakarta-sans">Q1 2025</h3>
-                            <ul>
-                                <li class="text-white fs-sm fw-normal leading-150">Community voted Yield Strategy 2
-                                    (governance)</li>
-                                <li class="text-white fs-sm fw-normal leading-150">Olympus RBS-OHM Real Yield Vault
-                                    (strategy)
-                                </li>
-                                <li class="text-white fs-sm fw-normal leading-150">Launch EFT governance token Airdrop
-                                </li>
+                            <div class="d-flex align-items-baseline ms-3">
+                                <p
+                                    class="text-white fs-sm fw-normal leading-150 ms-3 list-unstyled mb-1 position-relative dots">
+                                    Community voted Yield Strategy 2 (governance)</p>
+                            </div>
+                            <div class="d-flex align-items-baseline ms-3">
 
-                            </ul>
+                                <p
+                                    class="text-white fs-sm fw-normal leading-150 ms-3 list-unstyled mb-1 position-relative dots">
+                                    Olympus RBS-OHM Real Yield Vault (strategy)</p>
+                            </div>
+                            <div class="d-flex align-items-baseline ms-3">
+
+                                <p
+                                    class="text-white fs-sm fw-normal leading-150 ms-3 list-unstyled mb-1 position-relative dots">
+                                    Launch EFT governance token Airdrop</p>
+                            </div>
+
                         </div>
                     </div>
-                    <div class="timeline-item roadmap-size">
+                    <div class="timeline-item roadmap-size ">
                         <div class="timeline-content">
                             <h3 class="text-white fw-medium fs-md leading-120 plus-jakarta-sans">Q2 2025</h3>
-                            <ul>
-                                <li class="text-white fs-sm fw-normal leading-150">Hand over Elastic Finance DAO to
-                                    Community: Complete decentralization of Elastic Finance DAO, its treasury, its yield
-                                </li>
-                                <li class="text-white fs-sm fw-normal leading-150">strategies and community governance
-                                </li>
-
-                            </ul>
+                            <div class="d-flex align-items-baseline ms-3">
+                                <p
+                                    class="text-white fs-sm fw-normal leading-150 ms-3 list-unstyled mb-1 position-relative dots">
+                                    Hand over Elastic Finance DAO to Community: Complete decentralization of Elastic
+                                    Finance DAO, its treasury, its yield
+                                    strategies and community governance</p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -329,9 +458,11 @@
                 <div class="row justify-content-center">
                     <div class="col-12 col-lg-6 d-flex align-items-center justify-content-center mt-5 max-w-572 ">
                         <div class="flex-column">
-                            <h3 class="fw-bolder text-white leading-120 fs-lg pb-3 pb-md-3 neue_font">(E,E) Game Theory: An
+                            <h3 class="fw-bolder text-white leading-120 fs-lg pb-3 pb-md-3 neue_font_ultrabold">(E,E) Game Theory:
+                                An
                                 UPGRADE from (3,3)</h3>
-                            <p class="fst-italic leading-160 text-white fs-sm text-capitalize">Remember (3,3)  at its core was about
+                            <p class="fst-italic leading-160 text-white fs-sm text-capitalize">Remember (3,3) at its
+                                core was about
                                 social coordination. Or, people
                                 working together to achieve a common outcome or
                                 goal. (E,E) is the same. But with (E,E) people are working together not to grow a robust
@@ -359,11 +490,12 @@
                             class="position-absolute footer-card-img pointer-events-none">
                         <div class="footer-main-card d-flex justify-content-center align-items-center">
                             <div class="flex-column">
-                                <h3 class="fw-bolder text-white leading-120 fs-xlg text-center mb-0 neue_font">You</h3>
+                                <h3 class="fw-bolder text-white leading-120 fs-xlg text-center mb-0 neue_font_ultrabold">You</h3>
                                 <p class="fw-normal leading-160 text-white text-center fs-sm mb-0">(Flywheel)</p>
                             </div>
                         </div>
-                        <p class="fw-semibold fs-xsm leading-150 text-white position-absolute text-end top-15 left-53">Interact</p>
+                        <p class="fw-semibold fs-xsm leading-150 text-white position-absolute text-end top-15 left-53">
+                            Interact</p>
                         <div class="d-flex gap-4 pt-76 justify-content-center align-items-center pb-37">
                             <div class="flex-column footer-card bg-white ">
                                 <div class="d-flex justify-content-center">
@@ -385,7 +517,8 @@
                                         </defs>
                                     </svg>
                                 </div>
-                                <p class="fs-sm fw-bolder leading-160 text-black text-center mb-0 pb-1 neue_font">EEFI Bonds</p>
+                                <p class="fs-sm fw-bolder leading-160 text-black text-center mb-0 pb-1 neue_font_ultrabold">EEFI
+                                    Bonds</p>
                                 <p class="fw-normal fs-xsm leading-120 text-black text-center mb-0">Purchase. Lock up.
                                     Get Discount</p>
                             </div>
@@ -399,7 +532,8 @@
                                     </svg>
 
                                 </div>
-                                <p class="fs-sm fw-bolder leading-160 text-black text-center mb-0 pb-1 neue_font">Vault</p>
+                                <p class="fs-sm fw-bolder leading-160 text-black text-center mb-0 pb-1 neue_font_ultrabold">Vault
+                                </p>
                                 <p class="fw-normal fs-xsm leading-120 text-black text-center mb-0">Deposit + Earn</p>
                             </div>
                             <div class="flex-column footer-card bg-white ">
@@ -412,13 +546,14 @@
                                     </svg>
 
                                 </div>
-                                <p class="fs-sm fw-bolder leading-160 text-black text-center mb-0 pb-1 neue_font">LP Positions</p>
+                                <p class="fs-sm fw-bolder leading-160 text-black text-center mb-0 pb-1 neue_font_ultrabold">LP
+                                    Positions</p>
                                 <p class="fw-normal fs-xsm leading-120 text-black text-center mb-0">Yield Farming</p>
                             </div>
                         </div>
                         <div class="d-flex gap-4  justify-content-center align-items-center pb-37">
                             <div class="flex-column footer-assets-card bg-white ">
-                                <div class="d-flex justify-content-center">
+                                <div class="d-flex justify-content-center pb-1 pb-lg-0">
                                     <svg width="28" height="28" viewBox="0 0 28 28" fill="none"
                                         xmlns="http://www.w3.org/2000/svg">
                                         <path fill-rule="evenodd" clip-rule="evenodd"
@@ -427,7 +562,9 @@
                                     </svg>
 
                                 </div>
-                                <p class="fs-sm fw-bolder leading-120 text-black text-center mb-0 pb-1 mt-1 neue_font leading-105">Funding raised
+                                <p
+                                    class="fs-sm fw-bolder leading-120 text-black text-center mb-0 pb-1 mt-1 neue_font_ultrabold leading-105">
+                                    Funding raised
                                     acquires Growth assets</p>
 
                             </div>
@@ -442,7 +579,8 @@
 
 
                                 </div>
-                                <p class="fs-sm fw-bolder leading-120 text-black text-center mb-0 pb-1 neue_font">OHM Treasury
+                                <p class="fs-sm fw-bolder leading-120 text-black text-center mb-0 pb-1 neue_font_ultrabold">OHM
+                                    Treasury
                                     Strategy</p>
                                 <p class="fw-normal fs-xsm leading-120 text-black text-center mb-0">Deposit + Earn</p>
                             </div>
@@ -465,7 +603,8 @@
 
 
                                 </div>
-                                <p class="fs-sm fw-bolder leading-160 text-black text-center mb-0 pb-1 neue_font">Markets</p>
+                                <p class="fs-sm fw-bolder leading-160 text-black text-center mb-0 pb-1 neue_font_ultrabold">
+                                    Markets</p>
                                 <p class="fw-normal fs-xsm leading-120 text-black text-center mb-0">Trade + Arb (Fees)
                                 </p>
                             </div>
@@ -480,7 +619,8 @@
                                             fill="#1643C3" />
                                     </svg>
                                 </div>
-                                <p class="fs-sm fw-bolder leading-120 text-black text-center mb-0 pb-1 mt-2 neue_font">Yield From
+                                <p class="fs-sm fw-bolder leading-120 text-black text-center mb-0 pb-1 mt-2 neue_font_ultrabold">
+                                    Yield From
                                     Growth Assets
                                 </p>
                             </div>
@@ -494,7 +634,9 @@
                                     </svg>
 
                                 </div>
-                                <p class="fs-sm fw-bold leading-160 text-black text-center mb-0 pb-1 leading-120 neue_font">Fees. Revenue.
+                                <p
+                                    class="fs-sm fw-bold leading-160 text-black text-center mb-0 pb-1 leading-120 neue_font_ultrabold">
+                                    Fees. Revenue.
                                     Yield to Treasury</p>
                             </div>
                         </div>
@@ -517,7 +659,8 @@
                                     </svg>
 
                                 </div>
-                                <p class="fs-sm fw-bolder leading-160 text-black text-center mb-0 pb-1 neue_font">EEFI Furnace</p>
+                                <p class="fs-sm fw-bolder leading-160 text-black text-center mb-0 pb-1 neue_font_ultrabold">EEFI
+                                    Furnace</p>
                                 <p class="fw-normal fs-xsm leading-120 text-black text-center mb-0">Buy + Burn EEFI</p>
                             </div>
                         </div>
