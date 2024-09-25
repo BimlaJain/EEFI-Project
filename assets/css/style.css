@@ -227,7 +227,7 @@
 
 /* ----------------------roadmap-classes-------------------------------- */
 .roadmap-bg-img {
-    background-image: url("../images/webp/roadmap-layer.png");
+    background-image: url("../images/webp/roadmap-layer.webp");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
