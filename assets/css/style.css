@@ -83,29 +83,10 @@
     line-height: 150%;
 }
 
-.leading-auto {
-    line-height: normal;
-}
-
 .logo-size {
     width: 68px;
     height: 75px;
     margin-left: -10px;
-}
-
-.layer::after {
-    background: linear-gradient(179.27deg, #1643C3 0.63%, #000000 175.69%);
-    content: '';
-    height: 100%;
-    width: 100%;
-    top: 0%;
-    position: absolute;
-    right: 0%;
-    left: 0%;
-}
-
-.text-decoration {
-    text-decoration: none !important;
 }
 
 .border-bottom {
@@ -152,7 +133,6 @@
 
 .robot-img-size {
     width: 668px;
-
     margin-top: -42px;
     margin-left: -122px;
 }
